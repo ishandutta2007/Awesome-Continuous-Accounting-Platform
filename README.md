@@ -50,9 +50,9 @@ Below is a comprehensive comparison of leading SaaS continuous close and financi
 
 ## 💻 Open-Source GitHub Projects
 
-Explore top open-source double-entry engines, programmable ledger infrastructures, and automated reporting toolkits. Each project is ranked by GitHub star count (descending) with direct links to repo stargazers.
+Explore top open-source double-entry engines, programmable ledger infrastructures, and automated reporting toolkits. Each project is ranked by GitHub Stars_Count (descending) with direct links to repo stargazers.
 
-| 📦 Repository & Name | 🏷️ Category | 📝 Description & Technical Highlights | ⭐ GitHub Star Count & Stargazers Link |
+| 📦 Repository & Name | 🏷️ Category | 📝 Description & Technical Highlights | ⭐ GitHub Stars_Count & Stargazers Link |
 | :--- | :--- | :--- | :--- |
 | **[frappe/erpnext](https://github.com/frappe/erpnext)** | Full ERP & GL System | Full-featured open-source ERP system built on Python/JS. Includes complete general ledger, automated journal entries, bank reconciliations, multi-company consolidation, and financial statements. | [![Stars](https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white)](https://github.com/frappe/erpnext/stargazers) |
 | **[firefly-iii/firefly-iii](https://github.com/firefly-iii/firefly-iii)** | Financial Manager | PHP-based personal and SMB finance manager featuring rule-based automated transaction importing, budget tracking, continuous ledger reconciliation, and custom reporting. | [![Stars](https://img.shields.io/github/stars/firefly-iii/firefly-iii?style=social&color=white)](https://github.com/firefly-iii/firefly-iii/stargazers) |
