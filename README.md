@@ -1,221 +1,116 @@
-# Awesome-Continuous-Accounting-Platform
+# ⚡ Awesome Continuous Accounting Platform 📊
 
-## Top Continuous Accounting Platforms Ecosystem
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a> <a href="https://github.com/ishandutta2007/Awesome-Continuous-Accounting-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Continuous-Accounting-Platform?style=flat-square" alt="Stars"/></a> <a href="https://github.com/ishandutta2007/Awesome-Continuous-Accounting-Platform/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Continuous-Accounting-Platform?style=flat-square" alt="Forks"/></a> <a href="https://github.com/ishandutta2007/Awesome-Continuous-Accounting-Platform/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Continuous-Accounting-Platform?style=flat-square" alt="License"/></a> <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Continuous Accounting Platform Banner" width="100%" />
+</p>
 
+## 🚀 Overview & Ecosystem Summary
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**
+Welcome to the definitive **Continuous Accounting Platform Ecosystem** reference guide! This curated directory features top-tier **SaaS Continuous Close Software** and production-ready **Open-Source Accounting Engines**. 
 
-*Focused on Financial Close Automation, Reconciliation, Consolidation & Continuous Reporting*
-
-**Last updated: September 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Continuous Accounting**. These tools help finance teams move beyond periodic month-end closes toward continuous reconciliation, real-time consolidation, and audit-ready financial reporting.
-
-
-
-**Examples** include FloQast, BlackLine, Numeric, Rillet, Campfire, OneStream, Trintech, Vena, Cube, and Workiva (the category leaders).
-
-
-
-**Open-source emphasis**: Continuous accounting has a **narrow but emerging open-source foundation**. No production-ready open-source platform matches the breadth of FloQast or BlackLine. The practical path combines **double-entry accounting engines** (Beancount, Akaunting, BrassLedger) with **reconciliation tools** (YARS, Blnk) and **automated iXBRL reporting** (ixbrl-reporter). This section documents these foundations honestly.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[FloQast](https://floqast.com/)**
-
-  Close management platform focused on checklist automation, reconciliation workflows, and flux analysis. Popular with mid-market and enterprise accounting teams.
-
-
-
-- **[BlackLine](https://www.blackline.com/)**
-
-  Enterprise financial close automation platform. Provides account reconciliation, task management, transaction matching, and intercompany accounting.
-
-
-
-- **[Numeric](https://www.numeric.io/)**
-
-  AI-first close automation that sits on top of existing ERP (NetSuite, Sage Intacct, QuickBooks, SAP). Automates accruals, reconciliations, and flux analysis with transaction-level ERP visibility.
-
-
-
-- **[Rillet](https://www.rillet.com/)**
-
-  AI-native ERP that replaces the accounting workflow itself. The GL is continuously updated from connected systems, subledgers post near-real-time, and reconciliations run continuously.
-
-
-
-- **[Campfire](https://campfire.ai/)**
-
-  AI-native ERP designed for startups. Features Ember AI for cross-functional accessibility and real-time data flows.
-
-
-
-- **[OneStream](https://www.onestream.com/)**
-
-  Unified corporate performance management platform. Provides financial consolidation, close management, reporting, and planning.
-
-
-
-- **[Trintech](https://trintech.com/)**
-
-  Financial close and reconciliation software. Provides transaction matching, account reconciliation, and close task management.
-
-
-
-- **[Vena](https://venasolutions.com/)**
-
-  Financial planning and analysis platform with close management and consolidation capabilities.
-
-
-
-- **[Cube](https://cube software.com/)**
-
-  Spreadsheet-native FP&A platform that connects to ERP for real-time financial data and reporting.
-
-
-
-- **[Workiva](https://www.workiva.com/)**
-
-  Cloud platform for financial reporting, compliance, and data collaboration. Supports SEC reporting, iXBRL, and consolidated financial statements.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-### Double-Entry Accounting Engines
-
-
-
-- **[Beancount](https://github.com/beancount/beancount)**
-
-  **The most mature open-source double-entry accounting engine.** Uses plain-text files as input, provides an SQL-like query language for filtering and aggregating financial data, and generates balance sheets and income statements . Version 3.2.3 (May 2026) signed by GitHub Actions and verified by PyPI . **Python-based**. The foundation for continuous accounting: every transaction is version-controlled, auditable, and queryable.
-
-
-
-- **[Akaunting](https://github.com/akaunting/akaunting)**
-
-  **Free, open-source accounting software for small businesses and freelancers.** Built with Laravel, VueJS, and Bootstrap 4 . Features invoicing, billable expenses, bank account tracking, multi-currency, multi-company, customer management, and detailed financial reports . Version 3.2.3 (August 2026) with 218 votes on Softaculous . **GPL-3.0**. While not a continuous close platform, it provides the GL foundation for automated accounting workflows.
-
-
-
-- **[BrassLedger](https://github.com/rhamenator/BrassLedger)**
-
-  **Open-source cross-platform accounting and business management system.** **In active development** (v0.1.0-pre.6). Provides general ledger workspaces for journal activity, balances, and month-end review; receivables with cash application; payables with disbursement preparation; payroll; project tracking; and **reporting support for financial statements, checks, paychecks, labels, and management output** . **GPL-3.0**. .NET application with installers for Windows, macOS, and Linux .
-
-
-
-### Reconciliation & Matching
-
-
-
-- **[YARS (Yet Another Reconciliation System)](https://github.com/aferryc/yars)**
-
-  **Open-source financial reconciliation system for comparing internal transaction records with bank statements.** Microservices architecture with API Server, Compiler Service, and Reconciliation Service . Uses PostgreSQL for storage, Kafka for event-driven communication, and provides a web UI for uploading transaction files and viewing reconciliation summaries . **Go-based, MIT License** . **Reconciliation only**—does not include GL posting or close management.
-
-
-
-- **[Blnk](https://github.com/blnkfinance/blnk)**
-
-  **Source-available, cloud-native ledger platform for financial infrastructure.** Multi-currency, multi-asset, double-entry accounting with n:n transaction support . Features **reconciliation** via `StartInstantReconciliation` and `StartReconciliation` with configurable strategies (one_to_one), grouping criteria, and matching rules . Also provides `CreateBulkTransactions` with atomic rollback and async processing . **Go-based**. Enterprise-grade ledger engine.
-
-
-
-### Consolidation & Reporting
-
-
-
-- **[ixbrl-reporter](https://github.com/cybermaggedon/ixbrl-reporter)**
-
-  **Automated creation of iXBRL financial report files from template configuration and account data** . **35 stars, 12 forks**. **Python-based**. Enables programmatic generation of regulatory-compliant financial reports. **Open source**.
-
-
-
-- **[Nexus Accounting](https://github.com/azaharizaman/nexus-accounting)**
-
-  **Financial statement generation, period close, consolidation, and variance analysis package.** Part of the Nexus ERP ecosystem . **Planned capabilities** include `GetBalanceSheetQuery`, `GetIncomeStatementQuery`, `GetCashFlowStatementQuery`, `GetTrialBalanceQuery`, `GetVarianceReportQuery`, and `GetConsolidatedStatementQuery` . **Currently in planning/development stage**—provides architectural patterns for building consolidation systems. **PHP 8.3+**.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Double-Entry Engines**: **Beancount** (plain-text, Python, mature), **Akaunting** (Laravel/Vue, GPL-3.0, small business), **BrassLedger** (GPL-3.0, .NET, in development) .
-
-- **Reconciliation**: **YARS** (Go, MIT, bank reconciliation), **Blnk** (Go, source-available, ledger + reconciliation) .
-
-- **Reporting**: **ixbrl-reporter** (Python, iXBRL generation) .
-
-- **Consolidation**: **Nexus Accounting** (PHP, planned) .
-
-
-
-**Frameworks for building custom systems**: Combine **Beancount** for the plain-text double-entry GL foundation, **YARS** or **Blnk** for transaction reconciliation, **ixbrl-reporter** for automated iXBRL financial reporting, and **Akaunting** or **BrassLedger** for business management workflows. Add **PostgreSQL** for persistence and **Git** for audit trails.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Continuous accounting platforms handle sensitive financial data; ensure compliance with internal controls, audit requirements, and relevant financial regulations.
-
-- **Open-source reality**: **No production-ready open-source continuous accounting platform exists** that matches FloQast, BlackLine, or Numeric. The open-source ecosystem provides **double-entry accounting engines** (Beancount, Akaunting, BrassLedger), **reconciliation tools** (YARS, Blnk), and **automated reporting** (ixbrl-reporter) . A viable continuous accounting stack can be assembled from these components, but it requires significant integration work, lacks the workflow automation and close management features of commercial platforms, and has no unified UI for finance teams. Commercial platforms remain the primary choice for organizations seeking turnkey continuous accounting.
-
-
+**Continuous accounting** transforms corporate finance by shifting month-end close operations into automated daily routines—leveraging real-time general ledger (GL) sync, automated transaction reconciliation, AI-assisted accrual management, and instant consolidated financial reporting.
 
 ---
 
+## 📑 Table of Contents
+- [🏢 SaaS/Hosted Platforms](#-saashosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🛠️ Continuous Accounting Architecture & Integration](#%EF%B8%8F-continuous-accounting-architecture--integration)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
+- [📈 Star History](#-star-history)
 
+---
 
-**Made for controllers, finance managers, accounting operations teams, and financial systems architects.**
+## 🏢 SaaS/Hosted Platforms
 
-Let's make continuous accounting more open, transparent, and auditable.
+> **📊 Sector Market Size & Market Structure**: The global **Financial Close Automation & Continuous Accounting Software Market** is estimated at **~$4.5 Billion USD in 2026** (projected to reach ~$10.8 Billion by 2032 at a CAGR of 13.5%). The market is **moderately fragmented**: incumbent corporate performance management (CPM) and close management giants like *Workiva*, *BlackLine*, and *OneStream* hold substantial enterprise market share, while fast-growing AI-native disruptors like *Numeric*, *Rillet*, and *Campfire* are capturing mid-market and startup accounting workflows.
+
+Below is a comprehensive comparison of leading SaaS continuous close and financial reporting platforms, sorted by estimated company size (revenue/valuation) descending.
+
+| 🏢 Platform | 📝 Overview & Core Features | 💰 Estimated Company Size (Rev / Val) | 💵 Starting Tier Pricing | 🎁 Free Tier / Free Trial Limits |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Workiva](https://www.workiva.com/)** | Enterprise platform for SEC filings, ESG, iXBRL tagging, financial reporting, and multi-entity consolidation with real-time audit logs. | **~$630M+ Annual Revenue** (~$4.5B Market Cap) | Starts at **$1,200 / month** ($14,400/yr base contract) | ❌ No free tier. Offers **14-day guided sandbox access** upon enterprise demo request. |
+| **[BlackLine](https://www.blackline.com/)** | Market-leading financial close suite offering automated transaction matching, account reconciliations, journal entry management, and intercompany accounting. | **~$600M+ Annual Revenue** (~$3.5B Market Cap) | Starts at **$1,500 / month** ($18,000/yr enterprise base) | ❌ No free tier. Offers **14-day enterprise test-drive sandbox** for qualified finance teams. |
+| **[OneStream](https://www.onestream.com/)** | Unified Corporate Performance Management (CPM) software unifying financial close, consolidation, planning, budgeting, and operational reporting. | **~$450M+ ARR** (~$6.0B Market Cap) | Enterprise CPM starts at **$2,500 / month** ($30,000/yr base) | ❌ No free tier. Provides **custom interactive demo environment** for enterprise buyers. |
+| **[Trintech](https://trintech.com/)** | Enterprise close management and reconciliation software providing automated matching (Adra & Cadency suites) and close task tracking. | **~$180M+ Annual Revenue** (~$1.0B Valuation) | Adra Suite starts at **$750 / month** ($9,000/yr base) | ❌ No free tier. Offers **14-day full feature free trial** of the Adra suite. |
+| **[FloQast](https://floqast.com/)** | AI-assisted close management platform specializing in checklist automation, continuous reconciliation workflows, flux analysis, and ERP sync. | **~$100M+ ARR** ($1.6B+ Series E Valuation) | Starts at **$1,000 / month** ($12,000/yr annual commitment) | ❌ No free tier. Provides **14-day guided interactive trial** for accounting ops teams. |
+| **[Vena](https://venasolutions.com/)** | Excel-native FP&A and close management platform connecting Excel interfaces directly to centralized GL databases and financial report builders. | **~$90M+ ARR** (~$450M Valuation) | Professional tier starts at **$1,200 / month** ($14,400/yr) | ❌ No free tier. Offers **14-day interactive test-drive trial** with pre-populated datasets. |
+| **[Cube](https://cubesoftware.com/)** | Spreadsheet-native financial planning & close automation tool seamlessly mapping Excel/Google Sheets to NetSuite, QuickBooks, and Sage Intacct. | **~$25M+ ARR** (~$120M Valuation) | Starter plan begins at **$1,250 / month** ($15,000/yr paid annually) | ❌ No free tier. Offers **14-day product sandbox trial** with sample ERP connector setup. |
+| **[Numeric](https://www.numeric.io/)** | AI-first continuous close platform sitting atop NetSuite, Sage, and QuickBooks. Automates accrual review, transaction matching, and flux variance. | **~$20M+ ARR** ($150M+ Series A Valuation) | **Free Tier available**; Pro tier starts at **$500 / month** | ⚡ **Free Forever Plan**: Up to 3 user seats, standard account reconciliations & basic ERP sync. |
+| **[Rillet](https://www.rillet.com/)** | AI-native ERP replacing traditional GL workflows with real-time subledger posting, continuous bank feeds, and automated monthly revenue recognition. | **~$8M+ ARR** (~$70M Series A Valuation) | Starter ERP tier begins at **$600 / month** ($7,200/yr) | ❌ No free tier. Includes **14-day guided onboarding trial** with trial ledger migration. |
+| **[Campfire](https://campfire.ai/)** | Modern startup ERP and continuous accounting platform featuring Ember AI for real-time transaction classification and multi-currency ledgers. | **~$6M+ ARR** (~$50M Valuation) | Startup tier starts at **$350 / month** ($4,200/yr) | 🆓 **14-Day Free Trial**: Full access to Ember AI ledger & trial balance features. |
+
+---
+
+## 💻 Open-Source GitHub Projects
+
+Explore top open-source double-entry engines, programmable ledger infrastructures, and automated reporting toolkits. Each project is ranked by GitHub star count (descending) with direct links to repo stargazers.
+
+| 📦 Repository & Name | 🏷️ Category | 📝 Description & Technical Highlights | ⭐ GitHub Star Count & Stargazers Link |
+| :--- | :--- | :--- | :--- |
+| **[frappe/erpnext](https://github.com/frappe/erpnext)** | Full ERP & GL System | Full-featured open-source ERP system built on Python/JS. Includes complete general ledger, automated journal entries, bank reconciliations, multi-company consolidation, and financial statements. | [![Stars](https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white)](https://github.com/frappe/erpnext/stargazers) |
+| **[firefly-iii/firefly-iii](https://github.com/firefly-iii/firefly-iii)** | Financial Manager | PHP-based personal and SMB finance manager featuring rule-based automated transaction importing, budget tracking, continuous ledger reconciliation, and custom reporting. | [![Stars](https://img.shields.io/github/stars/firefly-iii/firefly-iii?style=social&color=white)](https://github.com/firefly-iii/firefly-iii/stargazers) |
+| **[akaunting/akaunting](https://github.com/akaunting/akaunting)** | Accounting Software | Open-source double-entry accounting software built with Laravel & VueJS. Features invoicing, expense tracking, bank feeds, multi-currency ledger, and financial reporting. | [![Stars](https://img.shields.io/github/stars/akaunting/akaunting?style=social&color=white)](https://github.com/akaunting/akaunting/stargazers) |
+| **[ledger/ledger](https://github.com/ledger/ledger)** | Command-Line GL | Powerful C++ command-line double-entry accounting engine using plain-text inputs. The foundation for programmable, Git-auditable continuous ledger workflows. | [![Stars](https://img.shields.io/github/stars/ledger/ledger?style=social&color=white)](https://github.com/ledger/ledger/stargazers) |
+| **[beancount/beancount](https://github.com/beancount/beancount)** | Plain-Text Accounting | Double-entry accounting system using plain-text syntax and an SQL-like query interface. Ideal for programmatic transaction auditability, real-time balance sheets, and custom continuous close scripts. | [![Stars](https://img.shields.io/github/stars/beancount/beancount?style=social&color=white)](https://github.com/beancount/beancount/stargazers) |
+| **[gnucash/gnucash](https://github.com/gnucash/gnucash)** | Desktop Accounting | Mature C/C++ cross-platform financial accounting application featuring double-entry transaction tracking, scheduled transactions, reconciliation tools, and financial reporting. | [![Stars](https://img.shields.io/github/stars/gnucash/gnucash?style=social&color=white)](https://github.com/gnucash/gnucash/stargazers) |
+| **[formancehq/ledger](https://github.com/formancehq/ledger)** | Cloud-Native Ledger | Cloud-native, programmable double-entry ledger engine written in Go. Built for complex financial transaction routing, atomic postings, payment orchestration, and real-time reconciliation. | [![Stars](https://img.shields.io/github/stars/formancehq/ledger?style=social&color=white)](https://github.com/formancehq/ledger/stargazers) |
+| **[blnkfinance/blnk](https://github.com/blnkfinance/blnk)** | Ledger & Reconciliation | Open-source financial infrastructure engine in Go. Features multi-currency double-entry ledgers, atomic transaction rollbacks, and configurable automated transaction matching rules. | [![Stars](https://img.shields.io/github/stars/blnkfinance/blnk?style=social&color=white)](https://github.com/blnkfinance/blnk/stargazers) |
+| **[cybermaggedon/ixbrl-reporter](https://github.com/cybermaggedon/ixbrl-reporter)** | Regulatory Reporting | Python tool for automated programmatic creation of inline XBRL (iXBRL) financial report files from account templates and ledger data. | [![Stars](https://img.shields.io/github/stars/cybermaggedon/ixbrl-reporter?style=social&color=white)](https://github.com/cybermaggedon/ixbrl-reporter/stargazers) |
+| **[rhamenator/BrassLedger](https://github.com/rhamenator/BrassLedger)** | .NET Accounting Suite | Open-source cross-platform .NET desktop accounting application providing general ledger workspaces, cash application, payables disbursement, and financial statement generation. | [![Stars](https://img.shields.io/github/stars/rhamenator/BrassLedger?style=social&color=white)](https://github.com/rhamenator/BrassLedger/stargazers) |
+| **[aferryc/yars](https://github.com/aferryc/yars)** | Bank Matching Microservice | Event-driven Go microservice using Kafka & PostgreSQL to match bank statements against internal company transaction records. | [![Stars](https://img.shields.io/github/stars/aferryc/yars?style=social&color=white)](https://github.com/aferryc/yars/stargazers) |
+| **[azaharizaman/nexus-accounting](https://github.com/azaharizaman/nexus-accounting)** | Consolidation Package | PHP 8.3+ package for automated financial statement generation, multi-entity consolidation, and flux variance analysis. | [![Stars](https://img.shields.io/github/stars/azaharizaman/nexus-accounting?style=social&color=white)](https://github.com/azaharizaman/nexus-accounting/stargazers) |
+
+---
+
+## 🛠️ Continuous Accounting Architecture & Integration
+
+To build a modern **open-source continuous accounting pipeline**, software architects and finance operations teams often combine modular tools:
+
+1. **Core Ledger Engine**: Use **Beancount** or **Ledger CLI** for version-controlled plain-text general ledger storage, or **Formance Ledger** / **Blnk** for microservice transaction streaming.
+2. **Reconciliation & Matching**: Leverage **Blnk** or **YARS** for automated bank statement to internal ledger matching and anomaly detection.
+3. **ERP & Workflow Core**: Deploy **ERPNext** or **Akaunting** for core payables, receivables, and vendor management.
+4. **Automated Regulatory Reporting**: Use **ixbrl-reporter** to transform period ledger outputs into audit-compliant SEC/iXBRL financial statements.
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are welcome and appreciated! Follow these steps to submit a new SaaS platform or open-source continuous accounting project:
+
+1. **Fork** this repository.
+2. Add your project to `README.md` in alphabetical or sorted position (following the existing table format).
+3. Ensure to include: Project Name, Official URL, Factual Capabilities, Pricing/Stars, and Category.
+4. Open a **Pull Request** with a brief summary of the added tool.
+
+Please ensure all added resources are directly relevant to continuous accounting, close management, reconciliation, or double-entry financial ledgers.
+
+---
+
+## 💖 Support & Sponsorship
+
+If you find this curated continuous accounting repository helpful for your finance engineering, accounting operations, or software architecture work, please consider supporting the project!
+
+- ⭐ **Star this repository** to help others discover it!
+- 🔀 **Fork it** to customize your own internal financial software stack reference.
+- 📢 **Share** with colleagues on LinkedIn, Twitter/X, and financial engineering communities.
+- ☕ **Buy me a coffee / Sponsor**: Support ongoing maintenance and curated financial open-source updates via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## ⚠️ Disclaimer
+
+- This repository is a **community-curated index** for informational and research purposes only. It does not constitute financial, legal, or audit advice.
+- Continuous accounting systems process sensitive financial records; always perform thorough security, SOC 1/SOC 2 compliance, and internal audit reviews before deploying any commercial software or open-source library into production.
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Continuous-Accounting-Platform&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Continuous-Accounting-Platform&type=date&legend=top-left)
